@@ -24,7 +24,7 @@ should be set up before the proxy.
 ### docker-compose.dev.yml
 
 1. git clone https://github.com/tvaisanen/dependencymapping
-2. docker-compose -f docker-compose.development.yml up
+2. docker-compose -f docker-compose.dev.yml up
 
 * Same setup as in `docker-compose.dist.yml` with slight mods:
     * web app is attached as run by dev server.
